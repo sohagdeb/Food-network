@@ -127,3 +127,31 @@ body{
 .fifth-part p{
     opacity: 0.8;
 }
+.sixth-part{
+    display: flex;
+    
+    margin-left: 340px;
+    margin-top: 120px;
+    box-shadow: 5px 5px 20px black;
+    text-align: center;
+    width: 800px;
+    padding-left:70px ;
+    border-radius: 30px;
+    
+}
+.first-six h1{
+    font-size: 40px;
+    
+}
+.second-six h1{
+    font-size: 40px;
+}
+.third-six h1{
+    font-size: 40px;
+}
+.second-six{
+    padding-left: 120px;
+}
+.third-six{
+    padding-left: 120px;
+}
