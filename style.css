@@ -83,5 +83,47 @@ body{
 .fourth-part h1{
     font-size: 30px;
 }
-
-
+.fifth-part{
+    display: flex;
+    margin-left: 150px;
+    
+    margin-top: 80px;
+    border-radius: 20px;
+    
+    
+}
+.second-food{
+    
+    box-shadow: 5px 5px 20px black;
+    text-align: center;
+    width: 350px;
+    margin-left: 80px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.fifth-part img{
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.third-food{
+    box-shadow: 5px 5px 20px black;
+    text-align: center;
+    width: 350px;
+    margin-left: 80px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.first-food{
+    box-shadow: 5px 5px 20px black;
+    text-align: center;
+    width: 350px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.fifth-part p{
+    opacity: 0.8;
+}
