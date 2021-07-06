@@ -53,6 +53,7 @@ body{
     font-size: 20px;
     color: white;
     font-weight: bolder;
+    cursor: pointer;
 }
 .third-part{
     background: url(image/photo2.png);
@@ -129,7 +130,7 @@ body{
 }
 .sixth-part{
     display: flex;
-    
+    padding-bottom: 30px;
     margin-left: 340px;
     margin-top: 120px;
     box-shadow: 5px 5px 20px black;
@@ -155,3 +156,57 @@ body{
 .third-six{
     padding-left: 120px;
 }
+.form{
+    text-align: center;
+    background:rgb(31, 31, 49);
+    padding-bottom: 30px;
+}
+.form1{
+    background:none;
+    color: white; 
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.form textarea{
+    background:none;
+    color: white;
+    width: 600px;
+    height: 80px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.form label{
+    color: white;
+}
+.button2{
+    width: 120px;
+    padding:10px 10px;
+    border-radius: 10px;
+    background:#222222;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    
+}
+.form h1{
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+}
+.last{
+    margin-top: 30px;
+    background:rgb(31, 31, 49);
+    text-align: center;
+    padding: 10px;
+    }
+.last a{
+    text-decoration:none;
+    color: white;
+    margin: 20px;
+    }
+.last p{
+    color: white;
+    margin: 20px;
+    }

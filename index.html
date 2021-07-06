@@ -11,25 +11,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="first-part">
+    <section id="home" class="first-part">
         <div class="logo">
             <img src="image/Food_Network_logo_green.png" alt="">
         </div>
         <div class="navigation">
-            <a href="#">Home</a>
-            <a href="#">Order</a>
-            <a href="#">About Me</a>
-            <a href="#">Recipies</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#order">Order</a>
+            <a href="#about-me">About Me</a>
+            <a href="#my-recipies">Recipies</a>
+            <a href="#contact">Contact</a>
         </div>
     </section>
-    <section class="second-part">
+    <section id="order" class="second-part">
         <div class="order-food">
             <h1> <span style="color: orange;">Skip</span> The Diet</h1>
             <h1>Just Eat Healthy </h1>
             <h1>With Food Network</h1>
             <h4>Imagine you don't need a diet because we provide healthy and delicious food for you!</h4>
-            <button class="button" >Order Food</button>
+            <a href="https://www.programming-hero.com/"target="_blank"><button class="button" >Order Food</button></a>
         </div>
         <div class="first-img">
             <img src="image/photo1.png" alt="">
@@ -37,14 +37,15 @@
         </div>
 
     </section>
-    <section class="third-part">
+    
+    <section id="about-me" class="third-part">
         <div class="about-me">
             <h1>About Me</h1>
         <h4>We've prepared a list of answers to your most frequently asked questions to help you navigate FoodNetwork.com and learn more about our television programming and website!</h4><br>
-        <button class="button">Contact Me</button>
+        <a href="https://www.programming-hero.com/"target="_blank"><button class="button">Contact Me</button></a>
         </div>
     </section>
-    <section class="fourth-part">
+    <section id="my-recipies" class="fourth-part">
         <h1>My Recipies</h1>
         <span>There are two types of recipes on our site: Articles and actual recipes. <br> Articles have been written by our editorial team and are not able to be saved <br> to the recipe box, but they can be emailed and shared socially. Often, <br> photo galleries contain these types of recipes. You can access the action icons on the left-hand rail.</span>
 
@@ -82,6 +83,29 @@
         </div>
 
     </section>
+    <section id="contact" class="form">
+        <h1>Contact Us</h1>
+         
+        <label for="fname" >First Name:</label>
+        <input class="form1"  type="text" name="fname" id="fname" placeholder="First Name..."><br>
+        <label  for="lname">Last Name:</label>
+        <input class="form1" type="text" name="lname" id="lname"placeholder="Last Name..."><br>
+        <label  for="email">Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+        <input class="form1"  type="text" name="email" id="email" placeholder="Email..."><br>
+        <label  for="message">Message:</label>
+        <textarea  name="text" id="" cols="30" rows="10"placeholder="Your Message...."></textarea><br>
+        <input class="button2" type="button" value="Submit" >
+        <input class="button2" type="reset" value="Reset" >
+    </section><br>
+    <hr style="height: 2px;background: #000;">
+    <footer class="last">
+        <a href="https://www.facebook.com/"target="-blank">Facebook</a>
+        <a href="https://www.youtube.com/"target="_blank">Youtube</a>
+        <a href="https://www.programming-hero.com/"target="_blank">Website</a>
+        <p>Copywrite &copy;Sohag Deb 2021</p>
+
+
+    </footer>
 
 </body>
 </html>
